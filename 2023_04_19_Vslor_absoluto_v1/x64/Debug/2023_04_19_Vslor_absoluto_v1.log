@@ -1,0 +1,38 @@
+﻿  2023_04_19_Vslor_absoluto_v1.cpp
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(8,2): error C2065: 'Algoritmo': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(8,12): error C2146: error de sintaxis: falta ';' delante del identificador 'valor_absoluto'
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(8,12): error C2065: 'valor_absoluto': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(9,3): error C2146: error de sintaxis: falta ';' delante del identificador 'Escribir'
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(9,3): error C2065: 'Escribir': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(9,12): error C2143: error de sintaxis: falta ';' delante de 'cadena'
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(10,3): error C2146: error de sintaxis: falta ';' delante del identificador 'Escribir'
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(10,3): error C2065: 'Escribir': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(10,12): error C2143: error de sintaxis: falta ';' delante de 'cadena'
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(11,3): error C2146: error de sintaxis: falta ';' delante del identificador 'Leer'
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(11,3): error C2065: 'Leer': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(11,8): error C2146: error de sintaxis: falta ';' delante del identificador 'dato1'
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(11,8): error C2065: 'dato1': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(12,3): error C2146: error de sintaxis: falta ';' delante del identificador 'Si'
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(12,3): error C2065: 'Si': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(12,6): error C2146: error de sintaxis: falta ';' delante del identificador 'dato1'
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(12,6): error C2065: 'dato1': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(12,16): error C2146: error de sintaxis: falta ';' delante del identificador 'Entonces'
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(12,16): error C2065: 'Entonces': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(13,3): error C2146: error de sintaxis: falta ';' delante del identificador 'resultado'
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(13,3): error C2065: 'resultado': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(13,16): error C2065: 'dato1': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(14,3): error C2146: error de sintaxis: falta ';' delante del identificador 'SiNo'
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(14,3): error C2065: 'SiNo': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(15,3): error C2146: error de sintaxis: falta ';' delante del identificador 'resultado'
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(15,3): error C2065: 'resultado': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(15,16): error C2065: 'dato1': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(16,3): error C2146: error de sintaxis: falta ';' delante del identificador 'FinSi'
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(17,12): error C2015: hay demasiados caracteres en la constante
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(16,3): error C2065: 'FinSi': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(17,3): error C2146: error de sintaxis: falta ';' delante del identificador 'Escribir'
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(17,3): error C2065: 'Escribir': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(17,12): error C2143: error de sintaxis: falta ';' delante de 'constante'
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(17,37): error C2065: 'resultado': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(18,3): error C2146: error de sintaxis: falta ';' delante del identificador 'FinAlgoritmo'
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(18,3): error C2065: 'FinAlgoritmo': identificador no declarado
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_04_19_Vslor_absoluto_v1\2023_04_19_Vslor_absoluto_v1.cpp(19,1): error C2143: error de sintaxis: falta ';' delante de '}'
