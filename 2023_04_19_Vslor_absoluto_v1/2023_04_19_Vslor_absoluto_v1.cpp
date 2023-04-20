@@ -5,15 +5,17 @@
 
 int main()
 {
-	int dato1 = 0;
-    std::cout << "Hola este prog5rama es para sacar el valor absoluto de un numero entero\n" << std::endl;
-	std::cout << "Inserte su numero" << std::endl;
-	std::cin >> dato1;
-	if (dato1 <= 0) {
-		dato1 < -dato1 * (-1)
+	int num = 0;
+	std::cout << "Hola este prog5rama es para sacar el valor absoluto de un numero entero\n" << std::endl;
+	std::cout << "Inserte su numero\n" << std::endl;
+	std::cin >> num;
+	if (num >= 0) {
+		std::cout << "En ese caso el valor avsoluto es " << num << std::endl;
 	}
-		if (dato1 >= 0 )
-		dato1 < -dato1
-		FinSi
-		Escribir 'el valor absoluto es:', resultado, ' '
+	if (num <= 0) {
+		num = (num * -1);
+		std::cout << "en ese caso el valor avsoluto es " << num << std::endl;
+	}
+
+
 }
