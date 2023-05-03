@@ -20,7 +20,7 @@ int main()
         switch (opc)
         {
         case 1: // Calculadora
-            //Tener una calculadora que solo haga 3 operaciones.
+            
             while (aux != 0)
             {
                 //Algoritmo de la calculadora
@@ -69,17 +69,20 @@ int main()
             break;
         case 2: // Contar hasta 100
             std::cout << "Estas en el contador hasta 100\n";
-            for (int i = 0; i <= 100; i++) //i++ significa avance de 1 en 1. 
+            for (int i = 0; i <= 100; i++) 
             {
                 std::cout << "El contador va en: " << i << std::endl;
+                system("pause");
             }
 
             break;
         case 3: // Contar de 10 en 10
             std::cout << "Estas en el contador de 10 X 10\n";
-            for (int i = 10; i <= 100; i++) //i++ significa avance de 1 en 1. 
+            for (int i = 10; i <= 100;i+=10) 
             {
+               
                 std::cout << "El contador va en: " << i << std::endl;
+                system("pause");
             }
             break;
         default:
