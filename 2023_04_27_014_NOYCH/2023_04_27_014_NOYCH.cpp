@@ -31,8 +31,20 @@ int main()
 
                 }
                 break;
-            }
+            case 2:
+            
+
+                int i = 1000;
+                while (i <= 0) {
+                    std::cout << "El contadorva en " << i << "\n";
+                    i--;
+                }
+                return 0;
+            
             break;
+
+            }
+            
         case 2: // Contar hasta 100
             std::cout << "Estas en el contador hasta 100\n";
             for (int i = 0; i <= 100; i++) 

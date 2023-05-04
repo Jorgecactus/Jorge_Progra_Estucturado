@@ -15,7 +15,7 @@ int main()
     {
     case 1:
         std::cout << "Bien pelearemos asta que pierdas tus tres vidas \n"<< std::endl;
-        
+        vidas - 1;
         
 
         break;
