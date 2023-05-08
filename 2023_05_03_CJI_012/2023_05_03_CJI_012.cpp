@@ -6,27 +6,42 @@
 int main()
 {
     int opc;
-    int vidas = 3;
     bool continuar = true;
-    char respuesta;
-    std::cout << "opciones 1- vucle de juego infinito 2- contador sel 0 al 100\n"<< std::endl;
-    std::cin >> opc;
-    switch (opc)
-    {
-    case 1:
-        std::cout << "Bien pelearemos asta que pierdas tus tres vidas \n"<< std::endl;
-        vidas - 1;
-        
+    bool vida = true;
+    int aux = 3;
+    while (continuar) {
 
-        break;
-        system("cls");
-    case 2:
-
-        for (int i = 0; i<=100; i++)  
+        std::cout << "opciones 1- vucle de juego infinito 2- contador sel 0 al 100\n" << std::endl;
+        std::cin >> opc;
+        switch (opc)
         {
-            std::cout << "El contador va en: " << i << std::endl;
-        }
+        case 1:
+            vida = true;
+            aux = 3;
+            while (vida) {
+                std::cout << "tienes " << aux << " vidas\n" << std::endl;
+                aux = aux - 1;
+                if (aux <= -1) {
+                    vida = false;
+                }
 
-        break;
+            }
+
+            break;
+
+        case 2:
+
+            for (int i = 0; i <= 100; i++)
+            {
+                std::cout << "El contador va en: " << i << std::endl;
+            }
+
+            break;
+        default:
+            std::cout << "esta opcion no la conosco" << std::endl;
+                break; 
+        }
+        std::cout << "quieres continuar 1)si 0)no\n" << std::endl;
+        std::cin >> continuar;
     }
 }
