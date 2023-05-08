@@ -5,13 +5,14 @@
 //Contar 10X10
 
 #include <iostream>
+#include <Windows.h>
 
 int main()
 {
   
     int opc = 0;
-
-
+    int aux = 0;
+                int i = 1000;
     while (true)
     {
         std::cout << "Hola que quieres hacer? 1.- contar de 0 a 1000 \n2.- Contar hasta 100 lento \n3.- Contar de 10 en 10\n ";
@@ -32,35 +33,49 @@ int main()
                 }
                 break;
             case 2:
-            
-
-                int i = 1000;
-                while (i <= 0) {
+                i = 1000;
+                while (i > 0) {
                     std::cout << "El contadorva en " << i << "\n";
                     i--;
                 }
-                return 0;
             
             break;
-
+            case 3:
+                i = 1000;
+                do {
+                   
+                    std::cout << i << std::endl;
+                    i--;
+                } while (i > 0);
+                 
+             break;
+            default:
+                std::cout << "no se cual es esa opcion\n" << std::endl;
+                break;
             }
-            
+            system("pause");
+            break;
         case 2: // Contar hasta 100
             std::cout << "Estas en el contador hasta 100\n";
             for (int i = 0; i <= 100; i++) 
             {
                 std::cout << "El contador va en: " << i << std::endl;
-                system("pause");
+                Sleep (100);
             }
 
             break;
         case 3: // Contar de 10 en 10
             std::cout << "Estas en el contador de 10 X 10\n";
-            for (int i = 10; i <= 100;i+=10) 
+            for (int i = 1; i <= 100;i++)
+             
             {
-               
-                std::cout << "El contador va en: " << i << std::endl;
-                system("pause");
+                aux++;
+                std::cout << " " << i << " ";
+                if (aux == 10) {
+                    std::cout << "\n";
+                    aux = 0;
+                }
+            
             }
             break;
         default:
