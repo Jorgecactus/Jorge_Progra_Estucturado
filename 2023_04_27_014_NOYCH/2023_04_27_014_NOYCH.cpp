@@ -15,7 +15,7 @@ int main()
                 int i = 1000;
     while (true)
     {
-        std::cout << "Hola que quieres hacer? 1.- contar de 0 a 1000 \n2.- Contar hasta 100 lento \n3.- Contar de 10 en 10\n ";
+        std::cout << "Hola que quieres hacer? 1.- contar de 1000 a 0 \n2.- Contar hasta 100 lento \n3.- Contar de 10 en 10\n ";
         std::cin >> opc;
         switch (opc)
         {
@@ -34,7 +34,7 @@ int main()
                 break;
             case 2:
                 i = 1000;
-                while (i > 0) {
+                while (i >= 0) {
                     std::cout << "El contadorva en " << i << "\n";
                     i--;
                 }
@@ -46,7 +46,7 @@ int main()
                    
                     std::cout << i << std::endl;
                     i--;
-                } while (i > 0);
+                } while (i >= 0);
                  
              break;
             default:
