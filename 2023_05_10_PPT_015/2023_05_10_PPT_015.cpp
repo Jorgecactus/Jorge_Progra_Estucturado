@@ -5,6 +5,8 @@
 
 int main()
 {
-    std::cout << "HOLA EN ESTE PROGRAMA \n";
+
+    std::cout << "HOLA EN ESTE PROGRAMA TENDRAS UNA BATALLA POKEMON\n";
+
 }
 
