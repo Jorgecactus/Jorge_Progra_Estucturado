@@ -126,74 +126,83 @@ int main()
                                     std::cout << "el cazador de piratas que ironia pero todos sbemos que se conbertira en el mejor espadachin del mundo\n" << std::endl;
                                 }
                                 else {
-                                    respuesta = 0;
-                                    std::cout << "¿tu personaje usa una daga jiratoria?\n" << std::endl;
-                                    std::cout << "1)si 2)no\n" << std::endl;
-                                    std::cin >> respuesta;
-                                    if (respuesta == 1) {
-                                        respuesta = 0;
-                                        std::cout << "¿tu personaje es Nefatari Vivi?\n" << std::endl;
-                                        std::cout << "1)si 2)no\n" << std::endl;
-                                        std::cin >> respuesta;
-                                        if (respuesta == 1) {
-                                            respuesta = 0;
-                                            std::cout << "nuestra gran reina salvada por nuestro grupo de piratas heroes no te agas ni te acordavas de ella\n" << std::endl;
-                                        }
-                                        else {
-                                            std::cout << "tu personaje creo que no esta en la tripulacion de los sombreros de paja\n" << std::endl;
-                                        }
-                                    }
+                                    std::cout << "tu personaje creo que no esta en la tripulacion de los sombreros de paja\n" << std::endl;
                                 }
+                                
                             }
                             else {
                                 respuesta = 0;
-                                std::cout << "¿tu personaje puede atacar con ataques elemtales?\n" << std::endl;
+                                std::cout << "¿tu personaje usa una daga jiratoria?\n" << std::endl;
                                 std::cout << "1)si 2)no\n" << std::endl;
                                 std::cin >> respuesta;
                                 if (respuesta == 1) {
                                     respuesta = 0;
-                                    std::cout << "¿tu personaje es Sanji?\n" << std::endl;
+                                    std::cout << "¿tu personaje es Nefatari Vivi?\n" << std::endl;
                                     std::cout << "1)si 2)no\n" << std::endl;
                                     std::cin >> respuesta;
                                     if (respuesta == 1) {
                                         respuesta = 0;
-                                        std::cout << "Nuesto cosinero favorito me pregunto de donde saca tanto sigarro\n" << std::endl;
+                                        std::cout << "nuestra gran reina salvada por nuestro grupo de piratas heroes no te agas ni te acordavas de ella\n" << std::endl;
                                     }
                                     else {
-                                        respuesta = 0;
-                                        std::cout << "¿tu personaje es Jinbe?\n" << std::endl;
-                                        std::cout << "1)si 2)no\n" << std::endl;
-                                        std::cin >> respuesta;
-                                        if (respuesta == 1) {
-                                            respuesta = 0;
-                                            std::cout << "El primer hijo del mar el salvador y el salvado por luffy\n" << std::endl;
-
-                                        }
-                                        else {
-                                            respuesta = 0;
-                                            std::cout << "¿tu personaje es Franky?\n" << std::endl;
-                                            std::cout << "1)si 2)no\n" << std::endl;
-                                            std::cin >> respuesta;
-                                            if (respuesta == 1) {
-                                                respuesta = 0;
-                                                std::cout << "como olvidar nuestro cyborg perbertido supergenial\n" << std::endl;
-                                            }
-                                            else {
-                                                std::cout << "tu personaje creo que no esta en la tripulacion de los sombreros de paja\n" << std::endl;
-                                            }
-                                        }
-
+                                        std::cout << "tu personaje creo que no esta en la tripulacion de los sombreros de paja\n" << std::endl;
                                     }
+                                }
+                                
+                            }
+                            
+
+                        }
+                    }               
+                 
+                }
+                else {
+                    respuesta = 0;
+                    std::cout << "¿tu personaje puede atacar con ataques elemtales?\n" << std::endl;
+                    std::cout << "1)si 2)no\n" << std::endl;
+                    std::cin >> respuesta;
+                    if (respuesta == 1) {
+                        respuesta = 0;
+                        std::cout << "¿tu personaje es Sanji?\n" << std::endl;
+                        std::cout << "1)si 2)no\n" << std::endl;
+                        std::cin >> respuesta;
+                        if (respuesta == 1) {
+                            respuesta = 0;
+                            std::cout << "Nuesto cosinero favorito me pregunto de donde saca tanto sigarro\n" << std::endl;
+                        }
+                        else {
+                            respuesta = 0;
+                            std::cout << "¿tu personaje es Jinbe?\n" << std::endl;
+                            std::cout << "1)si 2)no\n" << std::endl;
+                            std::cin >> respuesta;
+                            if (respuesta == 1) {
+                                respuesta = 0;
+                                std::cout << "El primer hijo del mar el salvador y el salvado por luffy\n" << std::endl;
+
+                            }
+                            else {
+                                respuesta = 0;
+                                std::cout << "¿tu personaje es Franky?\n" << std::endl;
+                                std::cout << "1)si 2)no\n" << std::endl;
+                                std::cin >> respuesta;
+                                if (respuesta == 1) {
+                                    respuesta = 0;
+                                    std::cout << "como olvidar nuestro cyborg perbertido supergenial\n" << std::endl;
+                                }
+                                else {
+                                    std::cout << "tu personaje creo que no esta en la tripulacion de los sombreros de paja\n" << std::endl;
                                 }
                             }
 
                         }
-                    }               break;
-    default:
-        std::cout << "tu personaje creo que no esta en la tripulacion de los sombreros de paja\n" << std::endl;
-        break;
+                    }
                 }
             }
         }
+        break;
+    default:
+        std::cout << "tu personaje creo que no esta en la tripulacion de los sombreros de paja\n" << std::endl;
+        break;
     }
+    
 }
