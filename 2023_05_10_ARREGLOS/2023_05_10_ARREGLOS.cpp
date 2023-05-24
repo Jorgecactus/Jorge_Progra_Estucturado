@@ -21,6 +21,7 @@ int main()
     int edad[5];
     for (int j = 0; j <= 4; j++)
     {
+
         std::cout << "hola me puedes dar tu nombre?" << std::endl;
         getline(std::cin, nombres[j]);
         std::cout << "y tu edad?" << std::endl;
