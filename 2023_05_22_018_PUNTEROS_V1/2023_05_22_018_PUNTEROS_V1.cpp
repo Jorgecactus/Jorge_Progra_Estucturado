@@ -7,10 +7,12 @@
 #include <windows.h>
 #include <cstdlib>
 #include <random>
+#include <string>
+#include <string.h>
 
 int main()
 {
-    /*
+    
     //repaso de funciones de control
     system("pause");
     system("cls");
@@ -30,12 +32,6 @@ int main()
 
     //borrar apuntador
     apuntador = NULL;
-    */
-
-
-    int matriz[2][3];
-
-    std::cin >> matriz[0][0];
-    std::cout << matriz[0][0] << std::endl;
+	edad = NULL;
 
 }
