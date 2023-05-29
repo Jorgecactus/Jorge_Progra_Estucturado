@@ -15,9 +15,8 @@ int main()
     std::cout << "HOLA NUEVO ENTRENADOR HOY ES TU INICIO PARA TU GRAN AVENTURA VEO QUE TU Y TU AMIGO NO ESPERABAN NI UN DIA MÁS"<<std::endl;
     std::cout << "COMO ES DEVIDO LES ENTREGSRE SU PRIMER POKEMON" << std::endl;
     std::cout << "CUAL SERA TU COMPAÑERO DE VIAJE J1 TENGO A 1)CHARMANDER 2)BULBASAUR 3)SQUIRTLE" << std::endl;
-    
-    getline(std::cin,pokemon[i])
-    
+    for (int i = 0; i <= 3; i++) {
 
+    }
 }
 
