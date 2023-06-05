@@ -1,2 +1,5 @@
 ﻿  2023_05_10_PPT_015.cpp
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(52,29): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(71,40): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(72,39): warning C4552: "-": el resultado de la expresión no se usa
   2023_05_10_PPT_015.vcxproj -> C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\x64\Debug\2023_05_10_PPT_015.exe

@@ -27,6 +27,9 @@ int main()
     std::string J2;
     int PJ1 = 0;
     int PJ2 = 0;
+    int ac1 = 0;
+    int movJ1 = 0;
+    int movJ2 = 0;
     std::cout << "HOLA SOY EL PROFESOR GEORGE ANTES DE INICIAR CUAL ES TU NOMBRE\n"<<std::endl;
     getline(std::cin, J1);
     std::cout << "Y CUAL ES EL NOMBRE DE TU COMPAÑERO\n" <<std::endl;
@@ -38,5 +41,45 @@ int main()
     std::cin >> PJ1;
     std::cout << J2 << " ELIGE TU POKEMON\n"<<std::endl;
     std::cin >> PJ2;
+    std::cout << "OK, " << J1 << " ELIGISTE A " << Pokemon[PJ1-1] << " Y " << J2 << " ELIGIO A " << Pokemon[PJ2-1] << std::endl;
+    std::cout << "BUENO DESPUES DE ELEGIR A SU POKEMON QUE LES PARESE TENER UN COMBATE POKEMON PARA QUE VEAN UN POCO DE LO QUE LES ESPERAEN SU VIAJE "<<J1<<" y "<<J2<<std::endl;
+    std::cout << "LISTO PARA SU COMBATE?" << std::endl;
+    system("PAUSE");
+    system("CLS");
+    std::cout << "GET READY TO DE RUMBLE" << std::endl;
+    while (vida[PJ1 - 1] > 0 && vida[PJ2 - 1] > 0)
+    {
+        std::srand(std::time(0));
+        int random1 = std::rand() % 11;
+        int random2 = std::rand() % 11;
+        if (random1 > random2) {
+            std::cout << J1 << " " << Pokemon[PJ1 - 1] << "    LP: " << vida[PJ1 - 1] << "\n" << std::endl;
+            std::cout << J2 << " " << Pokemon[PJ2 - 1] << "    LP: " << vida[PJ2 - 1] << "\n" << std::endl;
+            std::cout << J1 << " 1. LUCHAR\n2. POSION\n" << std::endl;
+            std::cin >> ac1;
+            switch (ac1)
+            {
+            case 1:
+                std::cout << J1 << " QUE HARAS\n";
+                if (PJ1 - 1 == 0) {
+                    for (int a = 0; a < 2; a++) {
+                        std::cout << a + 1 << ". " << Charmander_a[a] << std::endl;
+                    }
+                    std::cin >> movJ1;
+                    std::cout << "CARMANDER UTILIZO " << Charmander_a[movJ1] << std::endl;
+                    if (movJ1 == 2) {
+                        BULBASAUR_D[0] - 10;
+                        SQUIRTLE_D[0] - 10;
+                    }
+                    else {
+                        vida[PJ2 - 1] = vida[PJ2 - 1] - (CHARMANDER_D[0] + random1);
+                    }
+                    system("PAUSE");
 
+
+
+                }
+            }
+        }
+    }
 }
