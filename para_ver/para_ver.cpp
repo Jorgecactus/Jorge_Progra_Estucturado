@@ -1,90 +1,37 @@
-// 2023_04_27_014_NOYCH.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-// DE: Jorge Alejandro Delgadillo
-//Realizar 3 operaciones
-//Contar hasta 100
-//Contar 10X10
+// 2023_05_22_018_PUNTEROS_V1.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+//
 
 #include <iostream>
-#include <Windows.h>
+#include <locale>
+#include <stdlib.h>
+#include <windows.h>
+#include <cstdlib>
+#include <random>
+#include <string>
+#include <string.h>
 
 int main()
 {
 
-    int opc = 0;
-    int aux = 0;
-    int i = 1000;
-    while (true)
-    {
-        std::cout << "Hola que quieres hacer? 1.- contar de 1000 a 0 \n2.- Contar hasta 100 lento \n3.- Contar de 10 en 10\n ";
-        std::cin >> opc;
-        switch (opc)
-        {
-        case 1: // contandor de 1000 al 0
-            std::cout << "Estas en el contador del 1000 al 0\n";
-            std::cout << "con cual ciclo quiere hacer esto 1- for 2- while 3- do while\n";
-            std::cin >> opc;
-            switch (opc)
-            {
-            case 1:
-                for (int i = 1000; i >= 0; i--)
-                {
-                    std::cout << "El contador va en: " << i << std::endl;
+    //repaso de funciones de control
+    system("pause");
+    system("cls");
+    Sleep(100);
 
-                }
-                break;
-            case 2:
-                i = 1000;
-                while (i >= 0) {
-                    std::cout << "El contadorva en " << i << "\n";
-                    i--;
-                }
+    //punteros
+    int edad = 0;
+    int* apuntador = &edad;
 
-                break;
-            case 3:
-                i = 1000;
-                do {
+    std::cout << "el valor de la edad: " << edad << std::endl;
 
-                    std::cout << i << std::endl;
-                    i--;
-                } while (i >= 0);
+    std::cout << "el valor del apuntador: " << apuntador << std::endl;
 
-                break;
-            default:
-                std::cout << "no se cual es esa opcion\n" << std::endl;
-                break;
-            }
-            system("pause");
-            break;
-        case 2: // Contar hasta 100
-            std::cout << "Estas en el contador hasta 100\n";
-            for (int i = 0; i <= 100; i++)
-            {
-                std::cout << "El contador va en: " << i << std::endl;
-                Sleep(100);
-            }
+    std::cout << "el valor de la variable apuntada: " << *apuntador << std::endl;
 
-            break;
-        case 3: // Contar de 10 en 10
-            std::cout << "Estas en el contador de 10 X 10\n";
-            for (int i = 1; i <= 100; i++)
+    std::cout << "el valor de la dirección apuntada: " << &apuntador << std::endl;
 
-            {
-                aux++;
-                std::cout << " " << i << " ";
-                if (aux == 10) {
-                    std::cout << "\n";
-                    aux = 0;
-                }
-
-            }
-            break;
-        default:
-            std::cout << "supongo que no quieres nada adios\n" << std::endl;
-            break;
-        }
-        system("pause");
-        system("cls");
-    }
-
+    //borrar apuntador
+    apuntador = NULL;
+    edad = NULL;
 
 }
