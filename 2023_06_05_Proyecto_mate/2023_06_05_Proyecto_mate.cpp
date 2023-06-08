@@ -6,6 +6,6 @@
 int main()
 {
     std::cout << "Hola chavos en este programa calcularemos la provsvilidad de algunos eventos\n"<<std::endl;
-
+    std::cout << "Antes que quiere calcular\n" << std::endl;
     
 }

@@ -2,4 +2,26 @@
 C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(52,29): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
 C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(71,40): warning C4552: "-": el resultado de la expresión no se usa
 C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(72,39): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(88,41): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(89,39): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(104,41): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(105,39): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(132,44): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(133,43): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(149,45): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(150,43): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(165,45): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(166,43): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(198,40): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(199,39): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(215,41): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(216,39): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(231,41): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(232,39): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(259,44): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(260,43): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(276,45): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(277,43): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(292,45): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\2023_05_10_PPT_015.cpp(293,43): warning C4552: "-": el resultado de la expresión no se usa
   2023_05_10_PPT_015.vcxproj -> C:\Users\Amk28\Desktop\Jorge Delagadillo\Jorge_Progra_Estucturado\2023_05_10_PPT_015\x64\Debug\2023_05_10_PPT_015.exe

@@ -66,7 +66,7 @@ int main()
                         std::cout << a + 1 << ". " << Charmander_a[a] << std::endl;
                     }
                     std::cin >> movJ1;
-                    std::cout << "CARMANDER UTILIZO " << Charmander_a[movJ1] << std::endl;
+                    std::cout << "CARMANDER UTILIZO " << Charmander_a[movJ1-1] << std::endl;
                     if (movJ1 == 2) {
                         BULBASAUR_D[0] - 10;
                         SQUIRTLE_D[0] - 10;
@@ -75,11 +75,236 @@ int main()
                         vida[PJ2 - 1] = vida[PJ2 - 1] - (CHARMANDER_D[0] + random1);
                     }
                     system("PAUSE");
-
-
+                    system("CLS");
 
                 }
+                else if (PJ1 - 1 == 1) {
+                    for (int a = 0; a < 2; a++) {
+                        std::cout << a + 1 << ". " << Bulbasaur_a[a] << std::endl;
+                    }
+                    std::cin >> movJ1;
+                    std::cout << "BULBASAUR UTILIZO " << Bulbasaur_a[movJ1 - 1] << std::endl;
+                    if (movJ1 == 2) {
+                        CHARMANDER_D[0] - 10;
+                        SQUIRTLE_D[0] - 10;
+                    }
+                    else {
+                        vida[PJ2 - 1] = vida[PJ2 - 1] - (BULBASAUR_D[0] + random1);
+                    }
+                    system("PAUSE");
+                    system("CLS");
+                }
+                else if (PJ1 - 1 == 2) {
+                    for (int a = 0; a < 2; a++) {
+                        std::cout << a + 1 << ". " << Squirtle_a[a] << std::endl;
+                    }
+                    std::cin >> movJ1;
+                    std::cout << "CARMANDER UTILIZO " << Squirtle_a[movJ1 - 1] << std::endl;
+                    if (movJ1 == 2) {
+                        CHARMANDER_D[0] - 10;
+                        SQUIRTLE_D[0] - 10;
+                    }
+                    else {
+                        vida[PJ2 - 1] = vida[PJ2 - 1] - (SQUIRTLE_D[0] + random1);
+                    }
+                    system("PAUSE");
+                    system("CLS");
+                }
+                break;
+            case 2:
+                vida[PJ1 - 1] = vida[PJ1 - 1] + posion;
+                break;
+                std::cout << J1 << " " << Pokemon[PJ1 - 1] << "    LP: " << vida[PJ1 - 1] << "\n" << std::endl;
+                std::cout << J2 << " " << Pokemon[PJ2 - 1] << "    LP: " << vida[PJ2 - 1] << "\n" << std::endl;
+                std::cout << J2 << " 1. LUCHAR\n2. POSION\n" << std::endl;
+                std::cin >> ac1;
+                switch (ac1)
+                {
+                case 1:
+                    std::cout << J2 << " QUE HARAS\n";
+                    if (PJ2 - 1 == 0) {
+                        for (int a = 0; a < 2; a++) {
+                            std::cout << a + 1 << ". " << Charmander_a[a] << std::endl;
+                        }
+                        std::cin >> movJ2;
+                        std::cout << "CARMANDER UTILIZO " << Charmander_a[movJ2 - 1] << std::endl;
+                        if (movJ2 == 2) {
+                            BULBASAUR_D[0] - 10;
+                            SQUIRTLE_D[0] - 10;
+                        }
+                        else {
+                            vida[PJ1 - 1] = vida[PJ1 - 1] - (CHARMANDER_D[0] + random1);
+                        }
+                        system("PAUSE");
+                        system("CLS");
+
+                    }
+                    else if (PJ2 - 1 == 1) {
+                        for (int a = 0; a < 2; a++) {
+                            std::cout << a + 1 << ". " << Bulbasaur_a[a] << std::endl;
+                        }
+                        std::cin >> movJ2;
+                        std::cout << "BULBASAUR UTILIZO " << Bulbasaur_a[movJ2 - 1] << std::endl;
+                        if (movJ2 == 2) {
+                            CHARMANDER_D[0] - 10;
+                            SQUIRTLE_D[0] - 10;
+                        }
+                        else {
+                            vida[PJ1 - 1] = vida[PJ1 - 1] - (BULBASAUR_D[0] + random1);
+                        }
+                        system("PAUSE");
+                        system("CLS");
+                    }
+                    else if (PJ2 - 1 == 2) {
+                        for (int a = 0; a < 2; a++) {
+                            std::cout << a + 1 << ". " << Squirtle_a[a] << std::endl;
+                        }
+                        std::cin >> movJ2;
+                        std::cout << "CARMANDER UTILIZO " << Squirtle_a[movJ2 - 1] << std::endl;
+                        if (movJ2 == 2) {
+                            CHARMANDER_D[0] - 10;
+                            SQUIRTLE_D[0] - 10;
+                        }
+                        else {
+                            vida[PJ1 - 1] = vida[PJ1 - 1] - (SQUIRTLE_D[0] + random1);
+                        }
+                        system("PAUSE");
+                        system("CLS");
+                    }
+                    break;
+                case 2:
+                    vida[PJ2 - 1] = vida[PJ2 - 1] + posion;
+                    break;
+                }
             }
+           
+        }
+        else if (random1 < random2) {
+            std::cout << J1 << " " << Pokemon[PJ1 - 1] << "    LP: " << vida[PJ1 - 1] << "\n" << std::endl;
+            std::cout << J2 << " " << Pokemon[PJ2 - 1] << "    LP: " << vida[PJ2 - 1] << "\n" << std::endl;
+            std::cout << J2 << " 1. LUCHAR\n2. POSION\n" << std::endl;
+            std::cin >> ac1;
+            switch (ac1)
+            {
+            case 1:
+                std::cout << J2 << " QUE HARAS\n";
+                if (PJ2 - 1 == 0) {
+                    for (int a = 0; a < 2; a++) {
+                        std::cout << a + 1 << ". " << Charmander_a[a] << std::endl;
+                    }
+                    std::cin >> movJ2;
+                    std::cout << "CARMANDER UTILIZO " << Charmander_a[movJ2 - 1] << std::endl;
+                    if (movJ2 == 2) {
+                        BULBASAUR_D[0] - 10;
+                        SQUIRTLE_D[0] - 10;
+                    }
+                    else {
+                        vida[PJ1 - 1] = vida[PJ1 - 1] - (CHARMANDER_D[0] + random1);
+                    }
+                    system("PAUSE");
+                    system("CLS");
+
+                }
+                else if (PJ2 - 1 == 1) {
+                    for (int a = 0; a < 2; a++) {
+                        std::cout << a + 1 << ". " << Bulbasaur_a[a] << std::endl;
+                    }
+                    std::cin >> movJ2;
+                    std::cout << "BULBASAUR UTILIZO " << Bulbasaur_a[movJ2 - 1] << std::endl;
+                    if (movJ2 == 2) {
+                        CHARMANDER_D[0] - 10;
+                        SQUIRTLE_D[0] - 10;
+                    }
+                    else {
+                        vida[PJ1 - 1] = vida[PJ1 - 1] - (BULBASAUR_D[0] + random1);
+                    }
+                    system("PAUSE");
+                    system("CLS");
+                }
+                else if (PJ2 - 1 == 2) {
+                    for (int a = 0; a < 2; a++) {
+                        std::cout << a + 1 << ". " << Squirtle_a[a] << std::endl;
+                    }
+                    std::cin >> movJ2;
+                    std::cout << "CARMANDER UTILIZO " << Squirtle_a[movJ2 - 1] << std::endl;
+                    if (movJ2 == 2) {
+                        CHARMANDER_D[0] - 10;
+                        SQUIRTLE_D[0] - 10;
+                    }
+                    else {
+                        vida[PJ1 - 1] = vida[PJ1 - 1] - (SQUIRTLE_D[0] + random1);
+                    }
+                    system("PAUSE");
+                    system("CLS");
+                }
+                break;
+            case 2:
+                vida[PJ2 - 1] = vida[PJ2 - 1] + posion;
+                break;
+                std::cout << J1 << " " << Pokemon[PJ1 - 1] << "    LP: " << vida[PJ1 - 1] << "\n" << std::endl;
+                std::cout << J2 << " " << Pokemon[PJ2 - 1] << "    LP: " << vida[PJ2 - 1] << "\n" << std::endl;
+                std::cout << J1 << " 1. LUCHAR\n2. POSION\n" << std::endl;
+                std::cin >> ac1;
+                switch (ac1)
+                {
+                case 1:
+                    std::cout << J1 << " QUE HARAS\n";
+                    if (PJ1 - 1 == 0) {
+                        for (int a = 0; a < 2; a++) {
+                            std::cout << a + 1 << ". " << Charmander_a[a] << std::endl;
+                        }
+                        std::cin >> movJ1;
+                        std::cout << "CARMANDER UTILIZO " << Charmander_a[movJ1 - 1] << std::endl;
+                        if (movJ1 == 2) {
+                            BULBASAUR_D[0] - 10;
+                            SQUIRTLE_D[0] - 10;
+                        }
+                        else {
+                            vida[PJ2 - 1] = vida[PJ2 - 1] - (CHARMANDER_D[0] + random1);
+                        }
+                        system("PAUSE");
+                        system("CLS");
+
+                    }
+                    else if (PJ1 - 1 == 1) {
+                        for (int a = 0; a < 2; a++) {
+                            std::cout << a + 1 << ". " << Bulbasaur_a[a] << std::endl;
+                        }
+                        std::cin >> movJ1;
+                        std::cout << "BULBASAUR UTILIZO " << Bulbasaur_a[movJ1 - 1] << std::endl;
+                        if (movJ1 == 2) {
+                            CHARMANDER_D[0] - 10;
+                            SQUIRTLE_D[0] - 10;
+                        }
+                        else {
+                            vida[PJ2 - 1] = vida[PJ2 - 1] - (BULBASAUR_D[0] + random1);
+                        }
+                        system("PAUSE");
+                        system("CLS");
+                    }
+                    else if (PJ1 - 1 == 2) {
+                        for (int a = 0; a < 2; a++) {
+                            std::cout << a + 1 << ". " << Squirtle_a[a] << std::endl;
+                        }
+                        std::cin >> movJ1;
+                        std::cout << "CARMANDER UTILIZO " << Squirtle_a[movJ1 - 1] << std::endl;
+                        if (movJ1 == 2) {
+                            CHARMANDER_D[0] - 10;
+                            SQUIRTLE_D[0] - 10;
+                        }
+                        else {
+                            vida[PJ2 - 1] = vida[PJ2 - 1] - (SQUIRTLE_D[0] + random1);
+                        }
+                        system("PAUSE");
+                        system("CLS");
+                    }
+                    break;
+                case 2:
+                    vida[PJ1 - 1] = vida[PJ1 - 1] + posion;
+                    break;
+                }
+            }
+
         }
     }
 }

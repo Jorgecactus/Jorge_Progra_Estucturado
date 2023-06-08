@@ -1,37 +1,33 @@
-// 2023_05_22_018_PUNTEROS_V1.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
+// 2023_05_15_016_arreglos.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+//Jorge Alejandro Delgadillo
 
 #include <iostream>
-#include <locale>
-#include <stdlib.h>
-#include <windows.h>
-#include <cstdlib>
-#include <random>
 #include <string>
-#include <string.h>
 
 int main()
 {
-
-    //repaso de funciones de control
-    system("pause");
-    system("cls");
-    Sleep(100);
-
-    //punteros
-    int edad = 0;
-    int* apuntador = &edad;
-
-    std::cout << "el valor de la edad: " << edad << std::endl;
-
-    std::cout << "el valor del apuntador: " << apuntador << std::endl;
-
-    std::cout << "el valor de la variable apuntada: " << *apuntador << std::endl;
-
-    std::cout << "el valor de la dirección apuntada: " << &apuntador << std::endl;
-
-    //borrar apuntador
-    apuntador = NULL;
-    edad = NULL;
+    std::string titulo[5];
+    std::string autor[5];
+    int fecha[5];
+    //captura de datos
+    std::cout << "Hola campeon registra tus libros favoritos\n" << std::endl;
+    for (int i = 0; i < 5; i++)
+    {
+        std::cout << "indresar el titulo del libro " << i + 1 << std::endl;
+        if (i > 0) {
+            std::cin.ignore();
+        }
+        getline(std::cin, titulo[i]);
+        std::cout << "indresar el autor del libro " << i + 1 << std::endl;
+        getline(std::cin, autor[i]);
+        std::cout << "indresar la fecha de publicacion del libro aaaammdd " << i + 1 << std::endl;
+        std::cin >> fecha[i];
+    }
+    //funcion de muestreo de la informacion
+    std::cout << "ya veo tus libros son\n ";
+    for (int j = 0; j < 5; j++)
+    {
+        std::cout << j + 1 << ".- " << titulo[j] << "\nEl autor es: " << autor[j] << "\nPublicado en el dia " << fecha[j] << std::endl;
+    }
 
 }
